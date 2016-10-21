@@ -29,7 +29,7 @@ $action = (isset($_REQUEST["action"])) ? $_REQUEST["action"] : die('Parametro na
 
 switch($_SERVER['REQUEST_METHOD'])
 {
-	//case 'GET':
+	case 'GET':
 
                 $api = new api();
 		$params = array();
